@@ -55,7 +55,7 @@ jobs:
             path: results.json 
 
   veracode-fix:
-    runs-on: ubuntu-latest
+    runs-on: macOS
     needs: pipeline_scan
     name: Veracode Fix
     steps:
