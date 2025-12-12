@@ -1,0 +1,2 @@
+default:
+  runs_on: mac-runner
