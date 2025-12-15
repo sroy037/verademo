@@ -1,2 +1,2 @@
 default:
-  runs_on: mac-runner
+  runs_on: self-hosted
