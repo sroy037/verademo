@@ -80,4 +80,4 @@ jobs:
           prComment: false
           createPR: true
           fixType: single
-          debug: false
+          debug: true
