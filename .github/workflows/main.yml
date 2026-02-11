@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: macOS
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-java@v3
@@ -46,13 +46,12 @@ jobs:
             vid: ${{ secrets.VID }}
             vkey: ${{ secrets.VKEY }}
             file: "verademo.war" 
-            request_policy: "VeraDemo Policy"
             debug: 1
             fail_build: false
         - uses: actions/upload-artifact@v4
           with:
             name: Veracode Pipeline-Scan Results
-            path: results.json 
+            path: filtered_results.json 
 
   veracode-fix:
     runs-on: ubuntu-latest
