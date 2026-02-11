@@ -1,4 +1,4 @@
-# VeraDemo - Blab-a-Gag
+# VeraDemo - Blab-a-Gag - Test Single Type
 
 ### :information_source: Notice
 
