@@ -15,12 +15,12 @@ jobs:
         path: ~/.m2
         key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
     - name: Build with Maven
-      run: mvn clean package
+      run: mvn -f app/pom.xml clean package
 
     - uses: actions/upload-artifact@v4
       with:
         name: verademo.war
-        path: target/verademo.war
+        path: app/target/verademo.war
         
   pipeline_scan:
       needs: build
