@@ -79,5 +79,5 @@ jobs:
           language: java
           prComment: false
           createPR: true
-          fixType: single
-          debug: true
+          fixType: batch
+          debug: false
