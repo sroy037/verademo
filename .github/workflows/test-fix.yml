@@ -77,6 +77,7 @@ jobs:
           source_base_path_1: "com/:app/src/main/java/com/"
           source_base_path_2: "WEB-INF:app/src/main/webapp/WEB-INF"
           language: java
+          cwe: '117'
           prComment: false
           createPR: true
           fixType: single
