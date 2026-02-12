@@ -80,5 +80,5 @@ jobs:
           cwe: '117'
           prComment: false
           createPR: true
-          fixType: single
+          fixType: batch
           debug: false
