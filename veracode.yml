@@ -1,2 +1,1 @@
-default:
-  runs_on: self-hosted
+debug: true
